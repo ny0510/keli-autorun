@@ -62,7 +62,7 @@ interface Lesson {
 async function main() {
   const username = prompt('id: ');
   const password = prompt('pw ');
-  const classroomId = 'APL00000000000503603';
+  const classroomId = prompt('classroom id: ');
 
   if (!username || !password || !classroomId) {
     console.error('fill in all information.');
